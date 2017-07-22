@@ -228,7 +228,7 @@ function addSongNameClickEvent(songObj,position) {
    changeCurrentSongDetails(songObj);
   }
  else {
-   audio.src = 'songName';
+   audio.src = songName;
    toggleSong();
    changeCurrentSongDetails(songObj);
    $('#now-playing').removeClass('main');
